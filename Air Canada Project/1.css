@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  
+}
+
+:root {
+  /* dark shades of primary color*/
+
+  --transition: all 0.3s linear;
+  --spacing: 0.1rem;
+  --radius: 0.25rem;
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  --max-width: 1170px;
+  --fixed-width: 620px;
+}
+
+li, a, button {
+  font-family: "cursive", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 10%;
+  color: white;
+}
+
+#logo {
+  cursor: pointer;
+}
+
+
+.nav_buttons {
+  height: 0;
+}
+
+.nav_buttons li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_buttons li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav_buttons li a:hover {
+  color: black;
+
+}
+#top {
+  background: rgb(255, 150, 150);
+}
+
+.nav_toggle{
+  color: black;
+  text-align: left;
+  
+}
+
+.container{
+  text-align: center;
+  margin-top: 100px;
+}
+
+#animate {
+  position: absolute;
+  float: left;
+  margin-bottom: 500px;
+}
+
+.show-button {
+  height: 10rem;
+}
